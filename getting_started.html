@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Getting Started</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
-    <h1>Getting Started</h1>
-    <p>The first thing.</p>
 
-    <a href="index.html">Back to table of contents</a>
-    <h2>Roads</h2>
-    <p> To start, build a road. </p>
-    <p>Click the circle at the bottom of the screen that has a road inside it.</p>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Getting Started</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<script src="script.js">
+	</script>
+	<div class="header">
+		<h1>Getting Started</h1>
+		<a href="index.html">Back to table of contents</a>
+	</div>
+	<p>Ok! You've got CitySkylines and you're ready to start your first city! Let's go step by step through the first things
+		you should do.</p>
+
+	<h2>Roads</h2>
+	<p> To start, build a road. </p>
+	<p>Click the circle at the bottom of the screen that has a road inside it.</p>
+  <figure>
     <img width="120" src="images/ui_road.png"/>
+    <figcaption>
+      <p>Our residents would like some commerce! (that means they need to buy some things)</p>
+    </figcaption>
+  </figure>
+  
     <p>Build your first road by clicking on the end of the highway that has an arrow pointing into your city. [inside the dotted lines].</p>
     <img width="120" src="images/starting_highway.png"/>
     <p>After you click it, drag to the place you want the end of the road to be.</p>
@@ -26,10 +38,43 @@
     <h2>Zoning</h2>
     <p>Next to the road, there will be zones.Click on the zoning tool [the circle next to the road circle that has four squares in it] and click next to the road.</p>
     <img width="500" src="images/ui_zoning.png"/>
-    <p>The space next to the road will fill up with green squares. Light green is low density residential, light blue is low density commercial, yellow is industry, dark green [high density residential], which, like dark blue [high density commercial] and lightest blue [office] will not be unlocked. Click on your desired zone to be able to place whatever it is down.</p>
+    <p>The space next to the road will fill up with light green squares. Light green is low density residential, light blue is low density commercial, yellow is industry, dark green [high density residential], which, like dark blue [high density commercial] and lightest blue [office] will not be unlocked. Click on your desired zone to be able to place whatever it is down.</p>
+
+
     <h2>Electricity</h2>
-  <p>Your citizens will need electricity. The two starting options for getting electricity are wind tubines and coal power plants. You should use a coal power plant to get started with your city.</p>
+  <p>Your citizens will need electricity. The two starting options for getting electricity are wind tubines and coal power plants. Use a coal power plant to get started with your city.</p> 
+  <img width="300" src="images/first_powerplant.png"/>
+  <img width="300" src="images/first_powerplant_electric.png"/>
+
+<p>See the blue area around the power plant? Anything inside that zone will now have power!  If you want to build things further away, you'll need to run a powerline, but you don't need to run power between each house. Houses that are close to each other will kind of share power. Maybe they build underground power lines or something.</p>
+
+
     <h2>Water and plumbing</h2>
-    <p> Your citizens will also need water and plumbing services
+    <p> Your citizens will also need water and plumbing services. If you see a water source within your city limits you should use a water pumping station and a water drain pipe to get water in and out of your city.</p>
+
+    <p class="warning-msg">
+      <i class="fa fa-warning"></i>
+      Be careful not to put your water pumping stations downstream of your water drain pipes, otherwise the water will get polluted and make your citizens sick.
+    </p>
+    <p>
+      For our little city, let's use a water tower to get fresh water. You can use a water pump too, but that would need to go on a body of water and our nearest river is far away.
+    </p>
+    <p>
+      First we'll place the water tower and then we'll make some basic pipes. 
+    </p>
+    <img width="300" src="images/first_water.png"/>
+    <p>
+    But what about waste water? While later in the game, you'll be able to build a water treatment plant, which will help filter the waste water, for now, you can only build a water drain pipe. This will have to go into the river. Gross! Let's build it way over on the right hand side because the river flows that way. That will mean less pollution along the river bank. 
+    </p>
+    <img width="300" src="images/sewer_pic1.png"/>
+    <img width="300" src="images/sewer_pic2.png"/>
+    <p>Our drain will need electricity. We have two choioces here, we can either run a big long power line, or we can put in a windmill to power it. Let's choose the windmill.</p>
+    <p>
+      Finally, we just need to run the water pipes. Connect the water tower, the drain pipe, and run a pipe out where you are going to start your buildings.
+    </p>
+    <h3>What's Next?</h3>
+    <p>
+      Ok, our city is ready to rock! It's time to get some people. Read all about it in <a href="/moving_in.html">Moving In</a>.
+    </p>
   </body>
 </html>
