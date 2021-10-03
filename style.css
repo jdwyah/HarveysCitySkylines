@@ -9,12 +9,15 @@ body {
 
 h1 {
   color: black;
+  transform: skew(5deg, -3deg) scaleY(.66667); 
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  background: linear-gradient(130deg,#126602fa,#af002d 41.07%,#319197 76.05%);
+  border-radius: 25px;
 }
 
 .info-msg,
@@ -39,7 +42,7 @@ h1 {
 }
 .error-msg {
   color: #D8000C;
-  background-color: #ee6b6b;
+  background-color: #FFBABA;
 }
 
 figure {
